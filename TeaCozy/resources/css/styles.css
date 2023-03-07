@@ -1,0 +1,155 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid seashell;
+    box-shadow: inset;
+    height: 69px;
+    display: fixed;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+nav {
+    display: inline-flex;
+    float: right;
+    height: 69px;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+
+li {
+    padding: 0px 10px;
+}
+
+a:hover {
+    background-color: seashell;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+/* HERO (MISSION) SECTION */
+
+#mission {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.hero-banner {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+/* TEA OF MONTH SECTION */
+
+#featured-tea {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea-month-img {
+    height: 200px;
+    width: 300px;
+    border: 1px solid seashell;
+    border-radius: 5px;
+    margin: 0px -30px;
+}
+
+.img-description {
+    padding-top: 10px;
+}
+
+/* LOCATIONS SECTION */
+ 
+#locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*89l5x0*_ga*MTEwNjkyMjg3Mi4xNjU3MDcwMjQ2*_ga_3LRZM6TM9L*MTY3NTgxOTU1MC4xMDMuMS4xNjc1ODE5NTU2LjU0LjAuMA..');
+    height: 500px;
+    width: 1200px;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.locations-h2 {
+    font-size: 40px;
+    padding-top: 45px;
+}
+
+.location-address-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0px 20px;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+/* FOOTER SECTION */
+
+#contact {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
